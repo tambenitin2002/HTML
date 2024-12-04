@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Information</legend>
+        </fieldset>
+        <br>
+    <label for="username">Name</label>
+    <input type="text"
+     id="username"
+    name="username"
+    placeholder="Enter your Name" required> <br> <br>
+    <label for="email">Email</label>
+    <input type="email" 
+    name="mailId" 
+    id="email"
+    value="nishu@gmail.com" readonly> <br> <br>
+    <label for="pwd">Password</label>
+    <input type="password" 
+    id="pwd" 
+    name="pwd"> <br> <br>
+    <label for="">Gender</label>
+    <input type="radio" value="Male" name="gender">Male
+    <input type="radio" value="Female" name="gender">Female
+    <input type="radio" value="Others" name="gender">Others <br><br>
+    <label for="">Skills</label>
+    <input type="checkbox" value="html" checked>
+    <label for="" name="Skills">html</label>
+    <input type="checkbox" value="Css">
+    <label for="" name="Skills">Css</label>
+    <input type="checkbox" value="JS">
+    <label for="" name="Skills">JS</label> 
+    <br> <br>
+    <label for="Qualification">Qualificabrtion</label>
+    <select name="Qualification" id="Qualification">
+        <optgroup label="B.Tech"></optgroup>
+        <option value="Me">Mechanical</option>
+        <option value="Civil">Civil</option>
+        <option value="EEE">EEE</option>
+        <optgroup label="BSC"></optgroup>
+        <option value="Maths">Maths</option>
+        <option value="Physics">Physics</option>
+    </select>
+    <br><br>
+    <label for="doj">DOJ</label>
+    <input type="date"
+    name="doj"
+    min="2024-07-06"
+    max="2024-08-06"
+   >
+   <br>
+   <br>
+   <label for="exp">Experience</label>
+   <input type="range" id="exp" min="10"  max="20" step="2">
+   <br> <br>
+   <label for="address">Address</label>
+   <textarea name="address" id="address" rows="5" cols="30"></textarea>
+   <br> <br>
+   <input type="submit" value="Submit">
+   <input type="reset" value="Reset">
+ </form>
+</body>
+</html>-
